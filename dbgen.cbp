@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="dbgen" />
+		<Option makefile="makefile" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Win32 Release">
+				<Option output="C:/Users/Sambit Panda/Downloads/tpch-dbgen-master/tpch-dbgen-master/Release/dbgen" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Release" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-W" />
+					<Add option="-fexceptions" />
+					<Add option="-O2" />
+					<Add option="-DWIN32" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_CONSOLE" />
+					<Add option="-D_MBCS" />
+					<Add option="-DTPCH" />
+				</Compiler>
+				<Linker>
+					<Add library="kernel32" />
+					<Add library="user32" />
+					<Add library="gdi32" />
+					<Add library="winspool" />
+					<Add library="comdlg32" />
+					<Add library="advapi32" />
+					<Add library="shell32" />
+					<Add library="ole32" />
+					<Add library="oleaut32" />
+					<Add library="uuid" />
+					<Add library="odbc32" />
+					<Add library="odbccp32" />
+				</Linker>
+			</Target>
+			<Target title="Win32 Debug">
+				<Option output="C:/Users/Sambit Panda/Downloads/tpch-dbgen-master/tpch-dbgen-master/Debug/dbgen" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Debug" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-W" />
+					<Add option="-fexceptions" />
+					<Add option="-g" />
+					<Add option="-DWIN32" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D_CONSOLE" />
+					<Add option="-D_MBCS" />
+					<Add option="-DTPCH" />
+				</Compiler>
+				<Linker>
+					<Add library="kernel32" />
+					<Add library="user32" />
+					<Add library="gdi32" />
+					<Add library="winspool" />
+					<Add library="comdlg32" />
+					<Add library="advapi32" />
+					<Add library="shell32" />
+					<Add library="ole32" />
+					<Add library="oleaut32" />
+					<Add library="uuid" />
+					<Add library="odbc32" />
+					<Add library="odbccp32" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="bm_utils.c">
+			<Option compilerVar="CC" />
+			<Option target="Win32 Debug" />
+		</Unit>
+		<Unit filename="build.c">
+			<Option compilerVar="CC" />
+			<Option target="Win32 Debug" />
+		</Unit>
+		<Unit filename="config.h">
+			<Option target="Win32 Debug" />
+		</Unit>
+		<Unit filename="driver.c">
+			<Option compilerVar="CC" />
+			<Option target="Win32 Debug" />
+		</Unit>
+		<Unit filename="dss.h">
+			<Option target="Win32 Debug" />
+		</Unit>
+		<Unit filename="dsstypes.h">
+			<Option target="Win32 Debug" />
+		</Unit>
+		<Unit filename="load_stub.c">
+			<Option compilerVar="CC" />
+			<Option target="Win32 Debug" />
+		</Unit>
+		<Unit filename="permute.c">
+			<Option compilerVar="CC" />
+			<Option target="Win32 Debug" />
+		</Unit>
+		<Unit filename="permute.h">
+			<Option target="Win32 Debug" />
+		</Unit>
+		<Unit filename="print.c">
+			<Option compilerVar="CC" />
+			<Option target="Win32 Debug" />
+		</Unit>
+		<Unit filename="rnd.c">
+			<Option compilerVar="CC" />
+			<Option target="Win32 Debug" />
+		</Unit>
+		<Unit filename="rnd.h">
+			<Option target="Win32 Debug" />
+		</Unit>
+		<Unit filename="rng64.c">
+			<Option compilerVar="CC" />
+			<Option target="Win32 Debug" />
+		</Unit>
+		<Unit filename="rng64.h">
+			<Option target="Win32 Debug" />
+		</Unit>
+		<Unit filename="shared.h">
+			<Option target="Win32 Debug" />
+		</Unit>
+		<Unit filename="speed_seed.c">
+			<Option compilerVar="CC" />
+			<Option target="Win32 Debug" />
+		</Unit>
+		<Unit filename="text.c">
+			<Option compilerVar="CC" />
+			<Option target="Win32 Debug" />
+		</Unit>
+		<Unit filename="tpcd.h">
+			<Option target="Win32 Debug" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
